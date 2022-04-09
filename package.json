@@ -1,0 +1,23 @@
+{
+  "name": "tree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alfaussa/game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alfaussa/game/issues"
+  },
+  "homepage": "https://github.com/Alfaussa/game#readme",
+  "dependencies": {
+    "add-gitignore": "^1.1.1",
+    "three": "^0.139.2"
+  }
+}
