@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>My first three.js app</title>
-		<style>
-			body { margin: 0; }
-		</style>
-	</head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3Д Игра</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 	<body>
-		<script src="three.js"></script>
+		<!-- <canvas class="webgl"></canvas> -->
+		<script type="text/javascript" src="three.js"></script>
 		<script type="text/javascript" src="node_modules/three/examples/js/loaders/GLTFLoader.js"></script>
-		<script src="game.js"></script>
+		<script type="text/javascript" src="node_modules/three/examples/js/controls/OrbitControls.js"></script>
+		<script type="text/javascript" src="node_modules/three/examples/js/loaders/FBXLoader.js"></script>
+		<script type="text/javascript" src="node_modules/three/examples/js/libs/fflate.min.js"></script>
+		<script type="text/javascript" src="game.js"></script>
 	</body>
 </html>
