@@ -20,7 +20,7 @@
 
     const loader = new THREE.GLTFLoader();// Loading 3D model
     const clock = new THREE.Clock();//keeping track of time?
-   
+    let mixer;
 
     // Floor
     const geometry = new THREE.BoxGeometry(2000, 0, 2000);
