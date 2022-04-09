@@ -1,4 +1,4 @@
-# game
+# game 👷
 
 3D GAME MADE WITH THREE.JS
 
